@@ -5,8 +5,7 @@ import 'normalize.css';
 
 
 /**
- * @description this is a plain navigation button component
- *  with custom styles located at the navigation bar for the app
+ * @description this is a button component with custom styles for the app
  *
  * @param {object} props the props contains a children field that accepts
  * all renderable elements.
