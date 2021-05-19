@@ -10,5 +10,5 @@ export const StyledButton = styled("button", {
   border: "2px solid #f53838",
   backgroundColor:"#f53838",
   cursor:"pointer",
-  mixBlendMode:"",
+  boxShadow:"2px 5px 18px #f53838",
 });
