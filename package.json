@@ -14,9 +14,16 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "eslint": "^7.26.0",
     "gatsby": "^3.4.1",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-styletron": "^6.5.0",
+    "normalize.css": "^8.0.1",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "styletron-engine-atomic": "^1.4.8",
+    "styletron-react": "^5.2.7"
   },
   "devDependencies": {
     "prettier": "2.2.1"
