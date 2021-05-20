@@ -25,27 +25,59 @@ const Navbar = () => (
       </>
       <StyledNavLinks>
         <StyledLink>
-          <Link to="/about" style={{ textDecoration: 'none', color: '#4F5665' }}>
+          <Link
+            to="/about"
+            style={{
+              textDecoration: 'none',
+              color: '#4F5665',
+            }}
+          >
             About
           </Link>
         </StyledLink>
         <StyledLink>
-          <Link to="features" style={{ textDecoration: 'none', color: '#4F5665', marginRight: '30px' }}>
+          <Link
+            to="features"
+            style={{
+              textDecoration: 'none',
+              color: '#4F5665',
+              marginRight: '30px',
+            }}
+          >
             Features
           </Link>
         </StyledLink>
         <StyledLink>
-          <Link to="/pricing" style={{ textDecoration: 'none', color: '#4F5665' }}>
+          <Link
+            to="/pricing"
+            style={{
+              textDecoration: 'none',
+              color: '#4F5665',
+            }}
+          >
             Pricing
           </Link>
         </StyledLink>
         <StyledLink>
-          <Link to="/testimonials" style={{ textDecoration: 'none', color: '#4F5665', marginRight: '30px' }}>
+          <Link
+            to="/testimonials"
+            style={{
+              textDecoration: 'none',
+              color: '#4F5665',
+              marginRight: '30px',
+            }}
+          >
             Testimonials
           </Link>
         </StyledLink>
         <StyledLink>
-          <Link to="/help" style={{ textDecoration: 'none', color: '#4F5665' }}>
+          <Link
+            to="/help"
+            style={{
+              textDecoration: 'none',
+              color: '#4F5665',
+            }}
+          >
             Help
           </Link>
         </StyledLink>
