@@ -30,7 +30,7 @@ const Navbar = () => (
           </Link>
         </StyledLink>
         <StyledLink>
-          <Link to="features" style={{ textDecoration: 'none', color: '#4F5665' }}>
+          <Link to="features" style={{ textDecoration: 'none', color: '#4F5665', marginRight: '30px' }}>
             Features
           </Link>
         </StyledLink>
@@ -40,7 +40,7 @@ const Navbar = () => (
           </Link>
         </StyledLink>
         <StyledLink>
-          <Link to="/testimonials" style={{ textDecoration: 'none', color: '#4F5665' }}>
+          <Link to="/testimonials" style={{ textDecoration: 'none', color: '#4F5665', marginRight: '30px' }}>
             Testimonials
           </Link>
         </StyledLink>
