@@ -1,15 +1,12 @@
-import React from "react"
-import Navbar from "../components/molecules/Navbar"
-import SectionA from "../components/molecules/Section_A"
+import React from 'react';
+import Navbar from '../components/molecules/Navbar';
+import SectionA from '../components/molecules/SectionA';
 
-const Home = () => {
-  return (
-    <>
-      <Navbar />
-      <SectionA />
-    </>
-  )
-}
+const Home = () => (
+  <>
+    <Navbar />
+    <SectionA />
+  </>
+);
 
-export default Home
-
+export default Home;

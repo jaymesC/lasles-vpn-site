@@ -1,8 +1,7 @@
-import React from 'react'
+import React from 'react';
 import PropTypes from 'prop-types';
-import { StyledButton } from "./styles"
+import { StyledButton } from './styles';
 import 'normalize.css';
-
 
 /**
  * @description this is a button component with custom styles for the app
@@ -13,22 +12,16 @@ import 'normalize.css';
  * @constructor
  */
 
-
-const Button = (props) => {
-
-
-
-  return (
-    <>
-    <StyledButton>{props.children}</StyledButton>
-    </>
-  );
-};
+const Button = ({ children }) => (
+  <>
+    <StyledButton>{children}</StyledButton>
+  </>
+);
 
 // Button props
 Button.propTypes = {
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node),
-     PropTypes.node]).isRequired,
+    PropTypes.node]).isRequired,
 };
 
 export default Button;

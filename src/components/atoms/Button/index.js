@@ -1,8 +1,8 @@
-import React from 'react'
-import PropTypes from 'prop-types';
-import { StyledButton } from "./styles"
 import 'normalize.css';
 
+import React from 'react';
+import PropTypes from 'prop-types';
+import { StyledButton } from './styles';
 
 /**
  * @description this is a plain navigation button component
@@ -13,23 +13,16 @@ import 'normalize.css';
  * @return {JSX.Element}
  * @constructor
  */
-
-
-const Button = (props) => {
-
-
-
-  return (
-    <>
-    <StyledButton>{props.children}</StyledButton>
-    </>
-  );
-};
+const Button = ({ children }) => (
+  <>
+    <StyledButton>{children}</StyledButton>
+  </>
+);
 
 // Button props
 Button.propTypes = {
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node),
-     PropTypes.node]).isRequired,
+    PropTypes.node]).isRequired,
 };
 
 export default Button;
