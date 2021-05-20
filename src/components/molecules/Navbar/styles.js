@@ -17,6 +17,7 @@ export const StyledNavLinks = styled('section', {
   lineHeight: ' 19px',
   paddingTop: '1rem',
   color: '#4F5665',
+  textDecoration: 'none',
 });
 
 export const StyledLink = styled('a', {

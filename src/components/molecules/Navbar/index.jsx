@@ -1,6 +1,7 @@
 import 'normalize.css';
 
 import React from 'react';
+import { Link } from 'gatsby';
 import {
   StyledNavBar,
   StyledNavLinks,
@@ -23,11 +24,31 @@ const Navbar = () => (
         <img src="Logo .png" alt="" />
       </>
       <StyledNavLinks>
-        <StyledLink>About</StyledLink>
-        <StyledLink>Features</StyledLink>
-        <StyledLink>Pricing</StyledLink>
-        <StyledLink>Testimonials</StyledLink>
-        <StyledLink>Help</StyledLink>
+        <StyledLink>
+          <Link to="/about" style={{ textDecoration: 'none', color: '#4F5665' }}>
+            About
+          </Link>
+        </StyledLink>
+        <StyledLink>
+          <Link to="features" style={{ textDecoration: 'none', color: '#4F5665' }}>
+            Features
+          </Link>
+        </StyledLink>
+        <StyledLink>
+          <Link to="/pricing" style={{ textDecoration: 'none', color: '#4F5665' }}>
+            Pricing
+          </Link>
+        </StyledLink>
+        <StyledLink>
+          <Link to="/testimonials" style={{ textDecoration: 'none', color: '#4F5665' }}>
+            Testimonials
+          </Link>
+        </StyledLink>
+        <StyledLink>
+          <Link to="/help" style={{ textDecoration: 'none', color: '#4F5665' }}>
+            Help
+          </Link>
+        </StyledLink>
       </StyledNavLinks>
       <StyledSignSection>
         <StyledSignLink>Sign In</StyledSignLink>

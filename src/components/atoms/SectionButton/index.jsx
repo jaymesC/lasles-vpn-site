@@ -1,7 +1,8 @@
+import 'normalize.css';
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import { StyledButton } from './styles';
-import 'normalize.css';
 
 /**
  * @description this is a button component with custom styles for the app
