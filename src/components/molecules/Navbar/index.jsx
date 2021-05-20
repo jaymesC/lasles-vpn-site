@@ -64,7 +64,6 @@ const Navbar = () => (
             style={{
               textDecoration: 'none',
               color: '#4F5665',
-              marginRight: '30px',
             }}
           >
             Testimonials
