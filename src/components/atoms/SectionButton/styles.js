@@ -9,5 +9,5 @@ export const StyledButton = styled('button', {
   border: '2px solid #f53838',
   backgroundColor: '#f53838',
   cursor: 'pointer',
-  boxShadow: '1px 5px 18px #f53838',
+  boxShadow: '1px 10px 18px #f53838',
 });

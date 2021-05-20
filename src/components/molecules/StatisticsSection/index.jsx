@@ -16,7 +16,7 @@ import {
  * @return {JSX.Element}
  *
  */
-const Statistics = ({ img, counter, type }) => {
+const Statistics = ({ img, counter, type }) => (
   <>
     <StatSection>
       <StyledImg src={img} alt="" />
@@ -28,8 +28,8 @@ const Statistics = ({ img, counter, type }) => {
         </h4>
       </StyledDiv>
     </StatSection>
-  </>;
-};
+  </>
+);
 
 Statistics.propTypes = {
   img: PropTypes.string.isRequired,
