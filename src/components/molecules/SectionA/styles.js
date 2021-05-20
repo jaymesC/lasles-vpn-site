@@ -34,7 +34,7 @@ export const Showcase = styled('section', {
   marginBottom: '9.4rem',
   borderRadius: '10px',
   marginRight: '9.4rem',
-  boxShadow: '1px 15px 18px #ddd9d9',
+  boxShadow: '1px 25px 18px #ddd9d9',
 });
 
 export const StyledSvg = styled('section', {

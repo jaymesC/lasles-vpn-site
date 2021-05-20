@@ -23,4 +23,6 @@ export const StyledDiv = styled('div', {
 export const StyledH4 = styled('h4', {
   color: '#4F5665',
   fontWeight: '100',
+  marginTop: '3px',
+  fontSize: '14px',
 });

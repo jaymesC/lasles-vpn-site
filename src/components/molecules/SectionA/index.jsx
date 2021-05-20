@@ -41,17 +41,17 @@ const SectionA = () => (
       <Statistics
         img="user.png"
         counter="90+"
-        type="users"
+        type="Users"
       />
       <Statistics
         img="location.png"
         counter="30+"
-        type="locations"
+        type="Locations"
       />
       <Statistics
         img="Server.png"
         counter="50+"
-        type="servers"
+        type="Servers"
       />
     </Showcase>
   </>
