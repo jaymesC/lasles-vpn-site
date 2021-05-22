@@ -8,7 +8,7 @@ import {
   StyledSvg,
   Showcase,
 } from './styles';
-import Button from '../../atoms/SectionButton';
+import { Button } from '../../atoms';
 import Statistics from '../StatisticsSection';
 
 const SectionA = () => (
@@ -31,7 +31,7 @@ const SectionA = () => (
           <br />
           discover interesting features from us.
         </StyledP>
-        <Button>Get started</Button>
+        <Button shadow width={250}>Get started</Button>
       </StyledArticleOne>
       <StyledSvg>
         <img src="Illustration 1.png" alt="" />

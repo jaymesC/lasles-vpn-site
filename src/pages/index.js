@@ -1,12 +1,11 @@
 import React from 'react';
-import Navbar from '../components/molecules/Navbar';
 import SectionA from '../components/molecules/SectionA';
+import { DefaultLayout } from '../layout';
 
 const Home = () => (
-  <>
-    <Navbar />
+  <DefaultLayout title="Home">
     <SectionA />
-  </>
+  </DefaultLayout>
 );
 
 export default Home;

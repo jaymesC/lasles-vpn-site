@@ -9,7 +9,7 @@ import {
   StyledSignSection,
   StyledSignLink,
 } from './styles';
-import Button from '../../atoms/Button';
+import { Button } from '../../atoms';
 
 /**
  * navbar component
@@ -83,7 +83,7 @@ const Navbar = () => (
       </StyledNavLinks>
       <StyledSignSection>
         <StyledSignLink>Sign In</StyledSignLink>
-        <Button>Sign Up</Button>
+        <Button shape="rounded" variant="tertiary">Sign Up</Button>
       </StyledSignSection>
     </StyledNavBar>
   </>

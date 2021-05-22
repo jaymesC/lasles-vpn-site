@@ -19,7 +19,7 @@ const Button = ({ children }) => (
   </>
 );
 
-// Button props
+// button props
 Button.propTypes = {
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node),
     PropTypes.node]).isRequired,
