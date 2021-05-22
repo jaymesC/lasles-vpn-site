@@ -15,7 +15,7 @@ function getDefaultProps(props) {
     $variant: props.variant,
     $shadow: props.shadow,
     $width: props.width,
-    $fill: props.fill,
+    // $fill: props.fill,
   };
 }
 
@@ -42,7 +42,7 @@ Button.propTypes = {
   variant: PropTypes.oneOf(['primary', 'secondary', 'tertiary']),
   // size: PropTypes.oneOf(['small', 'large', 'medium', 'big', 'compact', 'default']),
   shadow: PropTypes.bool,
-  fill: PropTypes.bool,
+  // fill: PropTypes.bool,
   width: PropTypes.number,
 };
 
@@ -50,6 +50,6 @@ Button.defaultProps = {
   shape: 'default',
   variant: 'primary',
   shadow: false,
-  fill: false,
+  // fill: false,
   width: 150,
 };
