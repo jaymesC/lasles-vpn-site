@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { StyledButton } from './styles';
 
 /**
- * simple helper funtion for converting react component props to style component props
+ * simple helper function for converting react component props to style component props
  * @param props
  * @return {{$shadow: (boolean|*), $variant: (string|*), $shape}}
  */
