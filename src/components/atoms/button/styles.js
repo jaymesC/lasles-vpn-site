@@ -16,7 +16,7 @@ const getButtonShape = ($shape) => {
       break;
     case 'circle':
       styleObject.borderRadius = '50%';
-      styleObject.height = '60px'
+      styleObject.height = '60px';
       break;
     default:
       styleObject.borderRadius = '10px';
