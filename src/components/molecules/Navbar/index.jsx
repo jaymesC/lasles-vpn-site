@@ -2,12 +2,7 @@ import 'normalize.css';
 
 import React from 'react';
 import { Link } from 'gatsby';
-import {
-  StyledNavBar,
-  StyledNavLinks,
-  StyledLink,
-  StyledSignSection,
-} from './styles';
+import { StyledNavBar, StyledNavLinks, StyledLink, StyledSignSection } from './styles';
 import { Button } from '../../atoms';
 
 /**
@@ -15,8 +10,7 @@ import { Button } from '../../atoms';
  *
  * @return {JSX.Element}
  * */
-
-export const Navbar = () => (
+export const DesktopNavbar = () => (
   <>
     <StyledNavBar>
       <Link
@@ -94,5 +88,16 @@ export const Navbar = () => (
         </Button>
       </StyledSignSection>
     </StyledNavBar>
+  </>
+);
+
+/**
+ * navbar component
+ *
+ * @return {JSX.Element}
+ * */
+export const Navbar = () => (
+  <>
+    <DesktopNavbar />
   </>
 );

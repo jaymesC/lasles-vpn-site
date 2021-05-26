@@ -2,12 +2,7 @@ import 'normalize.css';
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  StatSection,
-  StyledImg,
-  StyledDiv,
-  StyledH4,
-} from './styles';
+import { StatSection, StyledImg, StyledDiv, StyledH4 } from './styles';
 
 /**
  * @description this component shows the various values of the app

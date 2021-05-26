@@ -7,6 +7,10 @@ export const StyledNavBar = styled('nav', {
   justifyContent: 'space-between',
   marginLeft: '9.4rem',
   marginRight: '9.4rem',
+  '@media only screen and (min-width: 105px) and (max-width: 812px)': {
+    backgroundColor: 'purple',
+    display: 'none',
+  }
 });
 
 export const StyledNavLinks = styled('section', {

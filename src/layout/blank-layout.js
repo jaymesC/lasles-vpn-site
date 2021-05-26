@@ -13,7 +13,7 @@ import PropTypes from 'prop-types';
 export function BlankLayout({ children, title }) {
   return (
     <section>
-      <title>{`${title} Lasles VPN`}</title>
+      <title>{`${title} | Lasles VPN`}</title>
       {children}
     </section>
   );

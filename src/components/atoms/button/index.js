@@ -34,10 +34,7 @@ export const Button = (props) => (
 
 // button props
 Button.propTypes = {
-  children: PropTypes.oneOfType([
-    PropTypes.arrayOf(PropTypes.node),
-    PropTypes.node,
-  ]).isRequired,
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]).isRequired,
   shape: PropTypes.oneOf(['rounded', 'rectangle', 'circle', 'default']),
   variant: PropTypes.oneOf([
     'primary',
@@ -48,7 +45,7 @@ Button.propTypes = {
     'warning',
     'plain',
   ]),
-  // size: PropTypes.oneOf(['small', 'large', 'medium', 'big', 'compact', 'default']),
+  // size: PropTypes.oneOf(['small', 'large', 'medium', 'xlarge', 'compact', 'default']),
   shadow: PropTypes.bool,
   fill: PropTypes.bool,
   width: PropTypes.number,
