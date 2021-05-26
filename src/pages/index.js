@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionA from '../components/molecules/SectionA';
+import SectionA from '../components/molecules/section-a';
 import { DefaultLayout } from '../layout';
 
 const Home = () => (

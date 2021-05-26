@@ -17,12 +17,16 @@ import { Button } from '../../atoms';
  * @return {JSX.Element}
  * */
 
-const Navbar = () => (
+export const Navbar = () => (
   <>
     <StyledNavBar>
-      <>
+      <Link
+        to="/"
+        style={{
+        paddingTop:'8px'
+      }}>
         <img src="Logo .png" alt="" />
-      </>
+      </Link>
       <StyledNavLinks>
         <StyledLink>
           <Link
@@ -82,8 +86,8 @@ const Navbar = () => (
         </StyledLink>
       </StyledNavLinks>
       <StyledSignSection>
-        <StyledSignLink>Sign In</StyledSignLink>
-        <Button shape="rounded" variant="tertiary">Sign Up</Button>
+        <Button shape="rounded" variant="plain" >Sign In</Button>
+        <Button shape="rounded" variant="secondary" >Sign Up</Button>
       </StyledSignSection>
     </StyledNavBar>
   </>

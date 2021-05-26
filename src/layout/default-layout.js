@@ -2,7 +2,7 @@ import 'normalize.css';
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import Navbar from '../components/molecules/Navbar';
+import Navbar from '../components/molecules/navbar';
 
 /**
  * @description default layout of the website

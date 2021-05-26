@@ -16,7 +16,7 @@ import {
  * @return {JSX.Element}
  *
  */
-const Statistics = ({ img, counter, type }) => (
+export const Statistics = ({ img, counter, type }) => (
   <>
     <StatSection>
       <StyledImg src={img} alt="" />

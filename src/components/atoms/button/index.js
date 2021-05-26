@@ -15,7 +15,7 @@ function getDefaultProps(props) {
     $variant: props.variant,
     $shadow: props.shadow,
     $width: props.width,
-    // $fill: props.fill,
+    $fill: props.fill,
   };
 }
 
@@ -38,11 +38,11 @@ export const Button = (props) => (
 Button.propTypes = {
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node),
     PropTypes.node]).isRequired,
-  shape: PropTypes.oneOf(['rounded', 'rectangle', 'default']),
-  variant: PropTypes.oneOf(['primary', 'secondary', 'tertiary']),
+  shape: PropTypes.oneOf(['rounded', 'rectangle', 'circle', 'default']),
+  variant: PropTypes.oneOf(['primary', 'secondary', 'success', 'danger', 'info', 'warning', 'plain']),
   // size: PropTypes.oneOf(['small', 'large', 'medium', 'big', 'compact', 'default']),
   shadow: PropTypes.bool,
-  // fill: PropTypes.bool,
+  fill: PropTypes.bool,
   width: PropTypes.number,
 };
 

@@ -9,9 +9,9 @@ import {
   Showcase,
 } from './styles';
 import { Button } from '../../atoms';
-import Statistics from '../StatisticsSection';
+import Statistics from '../statistics-section';
 
-const SectionA = () => (
+export const SectionA = () => (
   <>
     <StyledArticle>
       <StyledArticleOne>
