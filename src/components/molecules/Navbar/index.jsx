@@ -7,7 +7,6 @@ import {
   StyledNavLinks,
   StyledLink,
   StyledSignSection,
-  StyledSignLink,
 } from './styles';
 import { Button } from '../../atoms';
 
@@ -23,8 +22,9 @@ export const Navbar = () => (
       <Link
         to="/"
         style={{
-        paddingTop:'8px'
-      }}>
+          paddingTop: '8px',
+        }}
+      >
         <img src="Logo .png" alt="" />
       </Link>
       <StyledNavLinks>
@@ -86,11 +86,13 @@ export const Navbar = () => (
         </StyledLink>
       </StyledNavLinks>
       <StyledSignSection>
-        <Button shape="rounded" variant="plain" >Sign In</Button>
-        <Button shape="rounded" variant="secondary" >Sign Up</Button>
+        <Button shape="rounded" variant="plain">
+          Sign In
+        </Button>
+        <Button shape="rounded" variant="secondary">
+          Sign Up
+        </Button>
       </StyledSignSection>
     </StyledNavBar>
   </>
 );
-
-export default Navbar;

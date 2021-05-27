@@ -11,7 +11,7 @@ module.exports = {
       resolve: `gatsby-plugin-styletron`,
       options: {
         // You can pass options to Styletron.
-        prefix: "_",
+        prefix: '_',
         // Disable dev debug mode, enabled by default
         debug: false,
       },
@@ -25,7 +25,6 @@ module.exports = {
         ],
         display: 'swap',
       },
-      
     },
   ],
-}
+};

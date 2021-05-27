@@ -29,17 +29,25 @@ function getDefaultProps(props) {
  * @constructor
  */
 export const Button = (props) => (
-  <StyledButton {...getDefaultProps(props)}>
-    {props.children}
-  </StyledButton>
+  <StyledButton {...getDefaultProps(props)}>{props.children}</StyledButton>
 );
 
 // button props
 Button.propTypes = {
-  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node),
-    PropTypes.node]).isRequired,
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node,
+  ]).isRequired,
   shape: PropTypes.oneOf(['rounded', 'rectangle', 'circle', 'default']),
-  variant: PropTypes.oneOf(['primary', 'secondary', 'success', 'danger', 'info', 'warning', 'plain']),
+  variant: PropTypes.oneOf([
+    'primary',
+    'secondary',
+    'success',
+    'danger',
+    'info',
+    'warning',
+    'plain',
+  ]),
   // size: PropTypes.oneOf(['small', 'large', 'medium', 'big', 'compact', 'default']),
   shadow: PropTypes.bool,
   fill: PropTypes.bool,
@@ -50,6 +58,6 @@ Button.defaultProps = {
   shape: 'default',
   variant: 'primary',
   shadow: false,
-  // fill: false,
+  fill: false,
   width: 150,
 };

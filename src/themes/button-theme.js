@@ -35,8 +35,8 @@ export const ButtonThemeLight = {
     plain: {
       backgroundColor: colors.white,
       border: '2px solid #FFFFFF',
-      color:colors.black,
-    }
+      color: colors.black,
+    },
   },
 };
 

@@ -17,6 +17,6 @@ module.exports = {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/jsx-props-no-spreading': 'off',
     'react/destructuring-assignment': 'off',
-    'eslint linebreak-style': ['error', windows]
+    // 'eslint linebreak-style': ['error', windows]
   },
 };

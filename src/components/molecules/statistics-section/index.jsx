@@ -7,8 +7,7 @@ import {
   StyledImg,
   StyledDiv,
   StyledH4,
-}
-  from './styles';
+} from './styles';
 
 /**
  * @description this component shows the various values of the app
@@ -36,5 +35,3 @@ Statistics.propTypes = {
   counter: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
 };
-
-export default Statistics;

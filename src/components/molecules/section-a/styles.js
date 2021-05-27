@@ -16,7 +16,6 @@ export const StyledH1 = styled('h1', {
   fontSize: '50px',
   lineHeight: '70px',
   color: '#0B132A',
-
 });
 
 export const StyledP = styled('p', {
@@ -24,7 +23,6 @@ export const StyledP = styled('p', {
   marginBottom: '3rem',
   color: '#4F5665',
   fontSize: '16px',
-
 });
 
 export const Showcase = styled('section', {
@@ -37,6 +35,4 @@ export const Showcase = styled('section', {
   boxShadow: '1px 25px 18px #ddd9d9',
 });
 
-export const StyledSvg = styled('section', {
-
-});
+export const StyledSvg = styled('section', {});
