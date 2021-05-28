@@ -25,7 +25,7 @@ export const StyledP = styled('p', {
   fontSize: '16px',
 });
 
-export const Showcase = styled('section', {
+export const StyledShowcase = styled('section', {
   display: 'flex',
   marginTop: '6.4rem',
   marginLeft: '9.4rem',

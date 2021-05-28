@@ -10,7 +10,7 @@ export const StyledNavBar = styled('nav', {
   '@media only screen and (min-width: 105px) and (max-width: 812px)': {
     backgroundColor: 'purple',
     display: 'none',
-  }
+  },
 });
 
 export const StyledNavLinks = styled('section', {

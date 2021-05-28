@@ -25,6 +25,40 @@ const getButtonShape = ($shape) => {
   return styleObject;
 };
 
+const getButtonSize = ($size) => {
+  const styleObjectSize = {};
+
+  switch ($size) {
+    case 'small':
+      styleObjectSize.height = '32px';
+      styleObjectSize.width = '100px';
+      break;
+    case 'compact':
+      styleObjectSize.height = '30px';
+      styleObjectSize.width = '80px';
+      break;
+    case 'medium':
+      styleObjectSize.height = '45px';
+      styleObjectSize.width = '150px';
+      break;
+    case 'large':
+      styleObjectSize.height = '55px';
+      styleObjectSize.width = '180px';
+      styleObjectSize.fontSize = '18px';
+      break;
+    case 'xlarge':
+      styleObjectSize.height = '80px';
+      styleObjectSize.width = '190px';
+      styleObjectSize.fontSize = '22px';
+      break;
+    default:
+      styleObjectSize.height = '45px';
+      styleObjectSize.width = '150px';
+  }
+
+  return styleObjectSize;
+};
+
 export const StyledButton = styled('button', (props) => {
   const shadowStyle = props.$shadow
     ? {
@@ -42,5 +76,6 @@ export const StyledButton = styled('button', (props) => {
     ...fill,
     ...ButtonTheme.variants[props.$variant],
     ...getButtonShape(props.$shape),
+    ...getButtonSize(props.$size),
   };
 });

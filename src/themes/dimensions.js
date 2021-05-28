@@ -4,5 +4,5 @@ export const Dimensions = {
     medium: '30px',
     large: '100px',
     xlarge: '200px',
-  }
-}
+  },
+};

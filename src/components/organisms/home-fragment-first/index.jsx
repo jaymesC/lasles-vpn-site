@@ -1,10 +1,17 @@
 import React from 'react';
 import 'normalize.css';
-import { StyledArticle, StyledArticleOne, StyledH1, StyledP, StyledSvg, Showcase } from './styles';
+import {
+  StyledArticle,
+  StyledArticleOne,
+  StyledH1,
+  StyledP,
+  StyledSvg,
+  StyledShowcase,
+} from './styles';
 import { Button } from '../../atoms';
-import { Statistics } from '../statistics-section';
+import { Statistics } from '../../molecules/statistic-item';
 
-export const SectionA = () => {
+export const HomeFragmentFirst = () => {
   const statistics = [
     {
       img: 'user.png',
@@ -34,11 +41,12 @@ export const SectionA = () => {
             <strong>LaslesVPN.</strong>
           </StyledH1>
           <StyledP>
-            Provide a network for all your needs with ease and fun using <strong>LaslesVPN</strong>
+            Provide a network for all your needs with ease and fun using
+            <strong>LaslesVPN</strong>
             <br />
             discover interesting features from us.
           </StyledP>
-          <Button shadow width={250} variant="primary">
+          <Button shadow width={250} variant="primary" size="large">
             Get started
           </Button>
         </StyledArticleOne>
@@ -46,11 +54,11 @@ export const SectionA = () => {
           <img src="Illustration 1.png" alt="" />
         </StyledSvg>
       </StyledArticle>
-      <Showcase>
+      <StyledShowcase>
         {statistics.map((s) => (
           <Statistics key={s.img} {...s} />
         ))}
-      </Showcase>
+      </StyledShowcase>
     </>
   );
 };

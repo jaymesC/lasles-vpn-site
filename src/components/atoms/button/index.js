@@ -7,11 +7,12 @@ import { StyledButton } from './styles';
 /**
  * simple helper function for converting react component props to style component props
  * @param props
- * @return {{$shadow: (boolean|*), $variant: (string|*), $shape}}
+ * @return {{$shadow: (boolean|*), $variant: (string|*), $shape, $size}}
  */
 function getDefaultProps(props) {
   return {
     $shape: props.shape,
+    $size: props.size,
     $variant: props.variant,
     $shadow: props.shadow,
     $width: props.width,
@@ -45,7 +46,7 @@ Button.propTypes = {
     'warning',
     'plain',
   ]),
-  // size: PropTypes.oneOf(['small', 'large', 'medium', 'xlarge', 'compact', 'default']),
+  size: PropTypes.oneOf(['small', 'large', 'medium', 'xlarge', 'compact', 'default']),
   shadow: PropTypes.bool,
   fill: PropTypes.bool,
   width: PropTypes.number,
@@ -53,6 +54,7 @@ Button.propTypes = {
 
 Button.defaultProps = {
   shape: 'default',
+  size: 'medium',
   variant: 'primary',
   shadow: false,
   fill: false,

@@ -1,10 +1,10 @@
 import React from 'react';
-import { SectionA } from '../components/molecules/section-a';
+import { HomeFragmentFirst } from '../components/organisms/home-fragment-first';
 import { DefaultLayout } from '../layout';
 
 const Home = () => (
   <DefaultLayout title="Home">
-    <SectionA />
+    <HomeFragmentFirst />
   </DefaultLayout>
 );
 
